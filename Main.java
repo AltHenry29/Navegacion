@@ -1,8 +1,8 @@
-import forms.LoginData;
+import forms.LoginForm;
 
 public class Main {
     public static void main(String[] args) {
 
-        new LoginData().setVisible(true);
+        new LoginForm().setVisible(true);
     }
 }

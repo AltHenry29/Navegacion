@@ -1,8 +1,6 @@
-
 package forms;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class LoginForm extends JFrame {
     public JPanel panelMain;
@@ -12,7 +10,7 @@ public class LoginForm extends JFrame {
 
     public LoginForm() {
         setTitle("Login");
-        setSize(300, 200);
+        setSize(250, 150);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setContentPane(panelMain);
@@ -29,3 +27,4 @@ public class LoginForm extends JFrame {
         });
     }
 }
+
