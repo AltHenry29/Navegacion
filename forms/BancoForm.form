@@ -1,0 +1,19 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.BancoForm">
+  <grid id="root" binding="panelBanco" layout-manager="BorderLayout">
+    <component id="topPanel" class="javax.swing.JPanel" layout-manager="FlowLayout" constraints="North">
+      <component id="lblUsuario" class="javax.swing.JLabel" binding="lblUsuario" text="Cliente:"/>
+      <component id="lblSaldo" class="javax.swing.JLabel" binding="lblSaldo" text="Saldo:"/>
+    </component>
+    <component id="btnPanel" class="javax.swing.JPanel" layout-manager="FlowLayout" constraints="Center">
+      <component id="btnDeposito" class="javax.swing.JButton" binding="btnDeposito" text="Depósito"/>
+      <component id="btnRetiro" class="javax.swing.JButton" binding="btnRetiro" text="Retiro"/>
+      <component id="btnTransferencia" class="javax.swing.JButton" binding="btnTransferencia" text="Transferencia"/>
+      <component id="btnSalir" class="javax.swing.JButton" binding="btnSalir" text="Salir"/>
+    </component>
+    <component id="historialPanel" class="javax.swing.JScrollPane" constraints="South">
+      <component id="areaHistorial" class="javax.swing.JTextArea" binding="areaHistorial"/>
+    </component>
+  </grid>
+</form>

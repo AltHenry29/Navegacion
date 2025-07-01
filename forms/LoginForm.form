@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.LoginForm">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="4" column-count="1">
+    <component id="fcb58" class="javax.swing.JLabel" text="Usuario:"/>
+    <component id="a2e88" class="javax.swing.JTextField" binding="txtUsuario"/>
+    <component id="c1f7b" class="javax.swing.JLabel" text="Contraseña:"/>
+    <component id="da39f" class="javax.swing.JPasswordField" binding="txtClave"/>
+    <component id="dc9f3" class="javax.swing.JButton" binding="btnIngresar" text="Ingresar"/>
+  </grid>
+</form>
